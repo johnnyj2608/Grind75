@@ -21,8 +21,21 @@
 
 ## Week 1
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Algorithm    | Note | 
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Array/two-sum.py) | _O(n)_ | _O(n)_      | Easy   | Array | Hash map
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |----------------|-------|
+1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Week1/two-sum.py) | _O(n)_ | _O(n)_ | Easy | Array | Hash map
+20 | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses) | [Python](./Week1/valid-parenthesis.py) | _O(n)_ | _O(n)_ | Easy | Stack | 
+21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Python](./Week1/two-sum.py) | _O(n + m)_ | _O(1)_ | Easy | Linked List |
+121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Python](./Week1/best-time-to-buy-and-sell-stock.py) | _O(n)_ | _O(1)_ | Easy | Array | 
+125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [Python](./Week1/valid-palindrome.py) | _O(n)_ | _O(1)_ | Easy | String | 
+226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [Python](./Week1/invert-binary-tree.py) | _O(n)_ | _O(1)_ | Easy | Binary Tree | 
+242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [Python](./Week1/valid-anagram.py) | _O(n + m)_ | _O(26)_ | Easy | String |
+704 | [Binary Search](https://leetcode.com/problems/binary-search) | [Python](./Week1/binary-search.py) | _O(log n)_ | _O(1)_ | Easy | Binary Search | 
+733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | [Python](./Week1/flood-fill.py) | _O(n * m)_ | _O(n * m)_ | Easy | Graph |
+235 | [LCA of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [Python](./Week1/lca-of-a-bst.py) | _O(n)_ | _O(n)_ | Easy | Binary Search Tree | 
+110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | [Python](./Week1/balanced-binary-tree.py) | _O(n)_ | _O(n)_ | Easy | Binary Tree | 
+141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [Python](./Week1/linked-list-cycle.py) | _O(n)_ | _O(1)_ | Easy | Linked List | 
+232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [Python](./Week1/implement-queue-using-stacks.py) | _O(n)_ | _O(n)_ | Easy | Stack |
+
 
 <br/>
 <div align="right">
