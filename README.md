@@ -274,13 +274,13 @@ Premium questions are not included
 ## Week 14
 |  #  | Title |  Solution  |  Time   | Space  | Difficulty | Algorithm    | Note  | 
 |-----|-------|------------|---------|--------|------------|--------------|-------|
-103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [Python](./Week14/binary-tree-zigzag-level-order-traversal.py) | _ |  | Medium | Binary Tree |
-437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii) | [Python](./Week14/path-sum-iii.py) | _ |  | Medium | Binary Tree |
-50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [Python](./Week14/powx-n.py) | _ |  | Medium | Math |
-74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [Python](./Week14/search-a-2d-matrix.py) | _ |  | Medium | Binary Search |
-179 | [Largest Number](https://leetcode.com/problems/largest-number) | [Python](./Week14/largest-number.py) | _ |  | Medium | String |
-91 | [Decode Ways](https://leetcode.com/problems/decode-ways) | [Python](./Week14/decode-ways.py) | _ |  | Medium | Dynamic Programming |
-7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | [Python](./Week14/reverse-integer.py) | _ |  | Medium | Math |
+103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [Python](./Week14/binary-tree-zigzag-level-order-traversal.py) |  |  | Medium | Binary Tree |
+437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii) | [Python](./Week14/path-sum-iii.py) |  |  | Medium | Binary Tree |
+50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [Python](./Week14/powx-n.py) |  |  | Medium | Math |
+74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [Python](./Week14/search-a-2d-matrix.py) |  |  | Medium | Binary Search |
+179 | [Largest Number](https://leetcode.com/problems/largest-number) | [Python](./Week14/largest-number.py) |  |  | Medium | String |
+91 | [Decode Ways](https://leetcode.com/problems/decode-ways) | [Python](./Week14/decode-ways.py) |  |  | Medium | Dynamic Programming |
+7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | [Python](./Week14/reverse-integer.py) |  |  | Medium | Math |
 
 <br/>
 <div align="right">
