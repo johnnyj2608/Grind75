@@ -1,7 +1,9 @@
 # [Grind75](https://www.techinterviewhandbook.org/grind75)
 
 Schedule: 26 weeks, 8 hours a week
+<br>
 Difficulty: Easy + Medium
+<br>
 Premium questions are not included
 
 ## Weeks
