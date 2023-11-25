@@ -9,4 +9,3 @@ class Solution(object):
             if nums[i] != 0:
                 nums[index], nums[i] = nums[i], nums[index]
                 index += 1
-        return nums
