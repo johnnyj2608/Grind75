@@ -93,18 +93,18 @@ Premium questions are not included
 <br/>
 
 ## Week 4
-|  #  | Title |  Solution  |  Time   | Space  | Difficulty | Algorithm    | Note  | 
-|-----|-------|------------|---------|--------|------------|--------------|-------|
-190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | [Python](./Week4/reverse-bits.py) | _O(n)_ | _O(1)_ | Easy | Binary |
-572 | [ubtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | [Python](./Week4/subtree-of-another-tree.py) | _O(n * m)_ | _O(n)_ | Easy | Binary Tree |
-977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | [Python](./Week4/squares-of-a-sorted-array.py) | _O(n)_ | _O(n)_ | Easy | Array |
-53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [Python](./Week4/maximum-subarray.py) | _O(n)_ | _O(1)_ | Medium | Dynamic Programming |
-57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | [Python](./Week4/insert-interval.py) | _O(n)_ | _O(1)_ | Medium | Array |
-542 | [01 Matrix](https://leetcode.com/problems/01-matrix) | [Python](./Week4/01-matrix.py) | _O(n * m)_ | _O(n * m)_ | Medium | Graph |
-973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | [Python](./Week4/k-closest-points-to-origin.py) | _O(n log k)_ | _O(k)_ | Medium | Heap |
+|  #  | Title                                                                                                                          | Solution                                                            |  Time   | Space  | Difficulty | Algorithm    | Note  | 
+|-----|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|---------|--------|------------|--------------|-------|
+190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits)                                                                     | [Python](./Week4/reverse-bits.py)                                   | _O(n)_ | _O(1)_ | Easy | Binary |
+572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)                                               | [Python](./Week4/subtree-of-another-tree.py)                        | _O(n * m)_ | _O(n)_ | Easy | Binary Tree |
+977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)                                           | [Python](./Week4/squares-of-a-sorted-array.py)                      | _O(n)_ | _O(n)_ | Easy | Array |
+53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)                                                             | [Python](./Week4/maximum-subarray.py)                               | _O(n)_ | _O(1)_ | Medium | Dynamic Programming |
+57 | [Insert Interval](https://leetcode.com/problems/insert-interval)                                                               | [Python](./Week4/insert-interval.py)                                | _O(n)_ | _O(1)_ | Medium | Array |
+542 | [01 Matrix](https://leetcode.com/problems/01-matrix)                                                                           | [Python](./Week4/01-matrix.py)                                      | _O(n * m)_ | _O(n * m)_ | Medium | Graph |
+973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)                                         | [Python](./Week4/k-closest-points-to-origin.py)                     | _O(n log k)_ | _O(k)_ | Medium | Heap |
 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Python](./Week4/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(n)_ | Medium | String |
-15 | [3Sum](https://leetcode.com/problems/3sum) | [Python](./Week4/3sum.py) | _O(n ^ 2)_ | _O(n)_ | Medium | Array |
-102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Python](./Week4/binary-tree-level-order-traversa.py) | _O(n)_ | _O(n)_ | Medium | Binary Tree |
+15 | [3Sum](https://leetcode.com/problems/3sum)                                                                                     | [Python](./Week4/3sum.py)                                           | _O(n ^ 2)_ | _O(n)_ | Medium | Array |
+102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)                           | [Python](./Week4/binary-tree-level-order-traversal.py)              | _O(n)_ | _O(n)_ | Medium | Binary Tree |
 
 <br/>
 <div align="right">
