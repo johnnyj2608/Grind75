@@ -238,16 +238,16 @@ Premium questions are not included
 <br/>
 
 ## Week 12
-|  #  | Title |  Solution  |  Time   | Space  | Difficulty | Algorithm    |
-|-----|-------|------------|---------|--------|------------|--------------|
-525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array) |  |  |  | Medium | Array
-662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) |  |  |  | Medium | Binary Tree
-658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements) |  |  |  | Medium | Heap
-424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) |  |  |  | Medium | String
-55 | [Jump Game](https://leetcode.com/problems/jump-game) |  |  |  | Medium | Dynamic Programming
-2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |  |  |  | Medium | Linked List
-22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) |  |  |  | Medium | Recursion
-148 | [Sort List](https://leetcode.com/problems/sort-list) |  |  |  | Medium | Linked List
+|  #  | Title |  Solution  |  Time  | Space  | Difficulty | Algorithm    |
+|-----|-------|------------|--------|--------|------------|--------------|
+525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array) | [Python](./Week12/contiguous-array.py) | _O(n)_ | _O(n)_ | Medium | Array
+662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) | [Python](./Week12/maximum-width-of-binary-tree.py) | _O(n)_ | _O(n)_ | Medium | Binary Tree
+658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements) | [Python](./Week12/find-k-closest-elements.py) | _O(log n + k)_ | _O(k)_ | Medium | Binary Search
+424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | [Python](./Week12/longest-repeating-character-replacement.py) | _O(n)_ | _O(26)_ | Medium | String
+55 | [Jump Game](https://leetcode.com/problems/jump-game) | [Python](./Week12/jump-game.py) | _O(n)_ | _O(1)_ | Medium | DP or **Greedy**
+2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | [Python](./Week12/add-two-numbers.py) | _O(max(n, m))_ | _O(max(n, m))_ | Medium | Linked List
+22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [Python](./Week12/generate-parentheses.py) | _O(2^n)_ | _O(n)_ | Medium | Recursion
+148 | [Sort List](https://leetcode.com/problems/sort-list) | [Python](./Week12/sort-list.py) | _O(n log n)_ | _O(log n)_ | Medium | Linked List (Merge Sort)
 
 <br/>
 <div align="right">
