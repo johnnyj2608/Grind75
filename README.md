@@ -6,6 +6,14 @@ Difficulty: Easy + Medium
 <br>
 Premium questions are not included
 
+**CEPECO:**
+1. Clarify
+2. Edge
+3. Pseudocode
+4. Example
+5. Code
+6. Optimize
+
 ## Weeks
 
 * [Week 1](https://github.com/johnnyj2608/Grind75#week-1)
@@ -256,14 +264,14 @@ Premium questions are not included
 <br/>
 
 ## Week 13
-|  #  | Title |  Solution  |  Time   | Space  | Difficulty | Algorithm    |
-|-----|-------|------------|---------|--------|------------|--------------|
-560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |  |  |  | Medium | Array
-735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision) |  |  |  | Medium | Stack
-528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) |  |  |  | Medium | Math
-215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) |  |  |  | Medium | Heap
-221 | [Maximal Square](https://leetcode.com/problems/maximal-square) |  |  |  | Medium | Dynamic Programming
-48 | [Rotate Image](https://leetcode.com/problems/rotate-image) |  |  |  | Medium | Matrix
+|  #  | Title |  Solution  |  Time  | Space  | Difficulty | Algorithm    |
+|-----|-------|------------|--------|--------|------------|--------------|
+560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | [Python](./Week13/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium | Array
+735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision) | [Python](./Week13/asteroid-collision.py) | _O(n)_ | _O(n)_ | Medium | Stack
+528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) | [Python](./Week13/random-pick-with-weight.py) | _O(log n)_ | _O(n)_ | Medium | Math
+215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | [Python](./Week13/kth-largest-element-in-an-array.py) | _O(n log k)_ | _O(k)_ | Medium | Heap
+221 | [Maximal Square](https://leetcode.com/problems/maximal-square) | [Python](./Week13/maximal-square.py) | _O(n * m)_ | _O(n * m)_ | Medium | DP or **Recursion**
+48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [Python](./Week13/rotate-image.py) | _O(n^2)_ | _O(1)_ | Medium | Matrix
 
 <br/>
 <div align="right">
