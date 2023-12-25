@@ -280,15 +280,15 @@ Premium questions are not included
 <br/>
 
 ## Week 14
-|  #  | Title |  Solution  |  Time   | Space  | Difficulty | Algorithm    |
-|-----|-------|------------|---------|--------|------------|--------------|
-103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) |  |  |  | Medium | Binary Tree
-437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii) |  |  |  | Medium | Binary Tree
-50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) |  |  |  | Medium | Math
-74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) |  |  |  | Medium | Binary Search
-179 | [Largest Number](https://leetcode.com/problems/largest-number) |  |  |  | Medium | String
-91 | [Decode Ways](https://leetcode.com/problems/decode-ways) |  |  |  | Medium | Dynamic Programming
-7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) |  |  |  | Medium | Math
+|  #  | Title |  Solution  |  Time  | Space  | Difficulty | Algorithm    |
+|-----|-------|------------|--------|--------|------------|--------------|
+103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [Python](./Week14/binary-tree-zigzag-level-order-traversal.py) | _O(n)_ | _O(n)_ | Medium | Binary Tree
+437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii) | [Python](./Week14/path-sum-iii.py) | _O(n)_ | _O(n)_ | Medium | Binary Tree
+50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [Python](./Week14/powx-n.py) | _O(log n)_ | _O(log n)_ | Medium | Math
+74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [Python](./Week14/search-a-2d-matrix.py) | _O(log(n * m))_ | _O(log(n * m))_ | Medium | Binary Search
+179 | [Largest Number](https://leetcode.com/problems/largest-number) | [Python](./Week14/largest-number.py) | _O(n log n)_ | _O(n)_ | Medium | String
+91 | [Decode Ways](https://leetcode.com/problems/decode-ways) | [Python](./Week14/decode-ways.py) | _O(n)_ | _O(1)_ | Medium | Dynamic Programming
+7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | [Python](./Week14/reverse-integer.py) | _O(log n)_ | _O(1)_ | Medium | Math
 
 <br/>
 <div align="right">
