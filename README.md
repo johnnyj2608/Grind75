@@ -297,15 +297,15 @@ Premium questions are not included
 <br/>
 
 ## Week 15
-|  #  | Title |  Solution  |  Time   | Space  | Difficulty | Algorithm    |
-|-----|-------|------------|---------|--------|------------|--------------|
-73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) |  |  |  | Medium | Matrix
-143 | [Reorder List](https://leetcode.com/problems/reorder-list) |  |  |  | Medium | Linked List
-787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |  |  |  | Medium | Graph
-863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) |  |  |  | Medium | Binary Tree
-16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) |  |  |  | Medium | Array
-61 | [Rotate List](https://leetcode.com/problems/rotate-list) |  |  |  | Medium | Linked List
-153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |  |  |  | Medium | Binary Search
+|  #  | Title |  Solution  |  Time  | Space  | Difficulty | Algorithm    |
+|-----|-------|------------|--------|--------|------------|--------------|
+73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | [Python](./Week15/set-matrix-zeroes.py) | _O(n * m)_ | _O(1)_ | Medium | Matrix
+143 | [Reorder List](https://leetcode.com/problems/reorder-list) | [Python](./Week15/reorder-list.py) | _O(n)_ | _O(1)_ | Medium | Linked List
+787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | [Python](./Week15/cheapest-flights-within-k-stops.py) | _O(n * k)_ | _O(n)_ | Medium | Graph
+863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) | [Python](./Week15/all-nodes-distance-k-in-binary-tree.py) | _O(n)_ | _O(n)_ | Medium | Binary Tree
+16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | [Python](./Week15/3sum-closest.py) | _O(n^2)_ | _O(1)_ | Medium | Array
+61 | [Rotate List](https://leetcode.com/problems/rotate-list) | [Python](./Week15/rotate-list.py) | _O(n)_ | _O(1)_ | Medium | Linked List
+153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [Python](./Week15/find-minimum-in-rotated-sorted-array.py) | _O(log n)_ | _O(1)_ | Medium | Binary Search
 
 <br/>
 <div align="right">
