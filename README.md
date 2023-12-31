@@ -314,12 +314,12 @@ Premium questions are not included
 <br/>
 
 ## Week 16
-|  #  | Title |  Solution  |  Time   | Space  | Difficulty | Algorithm    |
-|-----|-------|------------|---------|--------|------------|--------------|
-227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) |  |  |  | Medium | Stack
-377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv) |  |  |  | Medium | Dynamic Programming
-380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) |  |  |  | Medium | Hash Table
-435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) |  |  |  | Medium | Array
+|  #  | Title |  Solution  |  Time  | Space  | Difficulty | Algorithm    |
+|-----|-------|------------|--------|--------|------------|--------------|
+227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | [Python](./Week16/basic-calculator-ii.py) | _O(n)_ | _O(1)_ | Medium | Stack
+377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv) | [Python](./Week16/combination-sum-iv.py) | _O(n * t)_ | _O(t)_ | Medium | Dynamic Programming
+380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) | [Python](./Week16/insert-delete-getrandom-o1.py) | _O(1)_ | _O(n)_ | Medium | Hash Table
+435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) | [Python](./Week16/non-overlapping-intervals.py) | _O(n log n)_ | _O(1)_ | Medium | Array
 
 <br/>
 <div align="right">
