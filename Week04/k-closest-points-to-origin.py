@@ -14,3 +14,20 @@ class Solution(object):
             else:
                 heapq.heappushpop(heap, [dist * -1, i])
         return [x[1] for x in heap]
+
+class Solution(object):
+    def kClosest(self, points, k):
+        """
+        :type points: List[List[int]]
+        :type k: int
+        :rtype: List[List[int]]
+        """
+        heap = []
+        for x, y in points:
+            dist = (x**2 + y**2) ** 0.5
+            heapq.heappush(heap, [dist, [x, y]])
+                
+        res = []
+        for i in range(k):
+            res.append(heapq.heappop(heap)[1])
+        return res
