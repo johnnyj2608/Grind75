@@ -1,3 +1,8 @@
+# Input: nums = [1,2,3,4]
+#  1  1  2  6 -> res[i] = product of everything to the left of i
+# 24 12  4  1 -> res[i] = product of everything to the right of i
+# Output: [24,12,8,6]
+
 class Solution(object):
     def productExceptSelf(self, nums):
         """
