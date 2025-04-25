@@ -6,9 +6,10 @@ class Solution(object):
         """
         s = Counter(s)
         res = 0
+
         for i in s:
-            res += s[i] / 2 * 2
-            if res % 2 == 0 and s[i] % 2 == 1:
-                res += 1
+            if s[i] % 2 == 1 and res % 2 == 1:
+                res -= 1
+            res += s[i]
         return res
 
