@@ -14,3 +14,18 @@ class Solution(object):
             return 0
 
         return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+
+class Solution(object):
+    def maxDepth(self, root):
+        """
+        :type root: Optional[TreeNode]
+        :rtype: int
+        """
+        def dfs(root):
+            if root == None:
+                return 0
+            left = dfs(root.left)
+            right = dfs(root.right)
+
+            return max(left, right)+1
+        return dfs(root)
