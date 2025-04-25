@@ -10,3 +10,11 @@ class Solution(object):
                 return True
             duplicate.add(i)
         return False
+
+class Solution(object):
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        return len(set(nums)) != len(nums)
