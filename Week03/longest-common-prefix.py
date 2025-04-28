@@ -5,10 +5,11 @@ class Solution(object):
         :rtype: str
         """
         res = ""
-        for i in range(len(min(strs))):
-            letter = strs[0][i]
-            for j in range(1, len(strs)):
-                if letter != strs[j][i]:
+        
+        for j in range(len(strs[0])):
+            for i in range(len(strs)):
+                if j == len(strs[i]) or strs[0][j] != strs[i][j]:
                     return res
-            res += letter
+            res += strs[0][j]
+        
         return res
