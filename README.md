@@ -110,7 +110,7 @@ Premium questions are not included
 57 | [Insert Interval](https://leetcode.com/problems/insert-interval)                                                               | [Python](./Week04/insert-interval.py)                                | _O(n)_ | _O(1)_ | Medium | Array
 542 | [01 Matrix](https://leetcode.com/problems/01-matrix)                                                                           | [Python](./Week04/01-matrix.py)                                      | _O(n * m)_ | _O(n * m)_ | Medium | Graph
 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)                                         | [Python](./Week04/k-closest-points-to-origin.py)                     | _O(n log k)_ | _O(k)_ | Medium | Heap
-3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Python](./Week04/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(n)_ | Medium | String
+3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Python](./Week04/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium | String
 15 | [3Sum](https://leetcode.com/problems/3sum)                                                                                     | [Python](./Week04/3sum.py)                                           | _O(n ^ 2)_ | _O(n)_ | Medium | Array
 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)                           | [Python](./Week04/binary-tree-level-order-traversal.py)              | _O(n)_ | _O(n)_ | Medium | Binary Tree
 
