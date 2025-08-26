@@ -36,8 +36,6 @@ class Solution(object):
 
         for n in nums:
             for i in range(target, n-1, -1):
-                if dp[i]:
-                    continue
                 if dp[i-n]:
                     dp[i] = True
                 if dp[-1]:
