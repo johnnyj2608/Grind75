@@ -38,6 +38,6 @@ class Solution(object):
             for i in range(target, n-1, -1):
                 if dp[i-n]:
                     dp[i] = True
-                if dp[-1]:
-                    return True
+            if dp[-1]:
+                return True
         return False
