@@ -5,7 +5,13 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         anagrams = defaultdict(list)
-        for i in range(len(strs)):
-            anagram = ''.join(sorted(strs[i]))
-            anagrams[anagram].append(strs[i])
-        return anagrams.values()
+        for i in strs:
+            count = [0] * 26
+            for c in i:
+                count[ord(c) - ord('a')] +=1
+            anagrams[tuple(count)].append(i)
+
+        res = []
+        for i in anagrams:
+            res.append(anagrams[i])
+        return res

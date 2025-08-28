@@ -203,7 +203,7 @@ Premium questions are not included
 134 | [Gas Station](https://leetcode.com/problems/gas-station) | [Python](./Week09/gas-station.py) | _O(n)_ | _O(1)_ | Medium | Array
 31 | [Next Permutation](https://leetcode.com/problems/next-permutation) | [Python](./Week09/next-permutation.py) | _O(n)_ | _O(1)_ | Medium | Recursion
 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [Python](./Week09/valid-sudoku.py) | _O(9 ^ 2)_ | _O(9 ^ 2)_ | Medium | Matrix
-49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [Python](./Week09/group-anagrams.py) | _O(n)_ | _O(n)_ | Medium | String
+49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [Python](./Week09/group-anagrams.py) | _O(n * m)_ | _O(n)_ | Medium | String
 
 <br/>
 <div align="right">
