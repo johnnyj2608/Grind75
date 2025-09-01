@@ -4,13 +4,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        numSet = set(nums)
+        nums = set(nums)
         res = 0
 
         for i in nums:
-            if (i - 1) not in numSet:
+            if (i - 1) not in nums:
                 cur = 0
-                while (i + cur) in numSet:
+                while (i + cur) in nums:
                     cur += 1
                 res = max(res, cur)
         return res
