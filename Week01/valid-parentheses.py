@@ -4,14 +4,14 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        para = {'}': '{', ')': '(', ']': '['}
+        para = {'}':'{', ']':'[', ')':'('}
         stack = []
-
         for i in s:
-            if i in para and len(stack) > 0:
-                if para[i] != stack[-1]:
+            if i in para:
+                if stack and stack[-1] == para[i]:
+                    stack.pop()
+                else:
                     return False
-                stack.pop()
             else:
                 stack.append(i)
         return len(stack) == 0

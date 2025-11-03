@@ -4,14 +4,10 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        mins = float('inf')
         res = 0
+        mins = float('inf')
 
-        for i in range(len(prices)):
-            if i == 0:
-                mins = prices[i]
-            else:
-                mins = min(mins, prices[i])
-                res = max(res, prices[i] - mins)
-
+        for i in prices:
+            mins = min(mins, i)
+            res = max(res, i - mins)
         return res

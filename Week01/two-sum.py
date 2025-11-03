@@ -7,7 +7,8 @@ class Solution(object):
         """
         complements = {}
         for i in range(len(nums)):
-            if nums[i] in complements:
-                return complements[nums[i]], i
-            complements[target-nums[i]] = i
-        return -1
+            complement = target - nums[i]
+            if complement in complements:
+                return [complements[complement], i]
+            
+            complements[nums[i]] = i

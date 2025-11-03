@@ -7,14 +7,14 @@ class Solution(object):
         :type color: int
         :rtype: List[List[int]]
         """
-        self.dfs(image, sr, sc, color, image[sr][sc])
+        def dfs(i, j, old):
+            if i < 0 or i >= len(image) or j < 0 or j >= len(image[i]) or image[i][j] != old or image[i][j] == color:
+                return
+            image[i][j] = color
+            dfs(i+1, j, old)
+            dfs(i-1, j, old)
+            dfs(i, j+1, old)
+            dfs(i, j-1, old)
+        
+        dfs(sr, sc, image[sr][sc])
         return image
-
-    def dfs(self, grid, i, j, new, old):
-        if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[i]) or grid[i][j] == new or grid[i][j] != old:
-            return
-        grid[i][j] = new
-        self.dfs(grid, i - 1, j, new, old)
-        self.dfs(grid, i + 1, j, new, old)
-        self.dfs(grid, i, j - 1, new, old)
-        self.dfs(grid, i, j + 1, new, old)

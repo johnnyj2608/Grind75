@@ -7,18 +7,19 @@
 class Solution(object):
     def isBalanced(self, root):
         """
-        :type root: TreeNode
+        :type root: Optional[TreeNode]
         :rtype: bool
         """
-        if root == None:
-            return True
-        return self.dfs(root) != -1
+        def dfs(root):
+            if root == None:
+                return 0
+            l = dfs(root.left)
+            r = dfs(root.right)
+            if l == -1 or r == -1 or abs(l-r) > 1:
+                return -1
+            return max(l, r)+1
 
-    def dfs(self, root):
-        if root == None:
-            return 0
-        left = self.dfs(root.left)
-        right = self.dfs(root.right)
-        if left == -1 or right == -1 or abs(right - left) > 1:
-            return -1
-        return max(right, left) + 1
+        res = dfs(root)
+        if res == -1:
+            return False
+        return True
