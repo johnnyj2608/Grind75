@@ -5,7 +5,7 @@ class Solution(object):
         :type b: str
         :rtype: str
         """
-        res = ""
+        res = ""    # res = []
         c = 0
         a = a[::-1]
         b = b[::-1]
@@ -17,7 +17,7 @@ class Solution(object):
             if i < len(b):
                 cur += int(b[i])
             c = cur // 2
-            res += str(cur % 2)
+            res += str(cur % 2)     # n^2, copying string
         if c > 0:
             res += str(c)
         return res[::-1]

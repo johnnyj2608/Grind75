@@ -64,7 +64,7 @@ Premium questions are not included
 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Python](./Week02/climbing-stairs.py) | _O(n)_ | _O(1)_ | Easy | Dynamic Programming
 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | [Python](./Week02/longest-palindrome.py) | _O(n)_ | _O(1)_ | Easy | String
 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Python](./Week02/reverse-linked-list.py) | _O(n)_ | _O(1)_ | Easy | Linked List
-169 | [Majority Element](https://leetcode.com/problems/majority-element) | [Python](./Week02/majority-element.py) | _O(n)_ | _O(n)_ | Easy | Array
+169 | [Majority Element](https://leetcode.com/problems/majority-element) | [Python](./Week02/majority-element.py) | _O(n)_ | _O(1)_ | Easy | Array
 67 | [Add Binary](https://leetcode.com/problems/add-binary) | [Python](./Week02/add-binary.py) | _O(max(n, m))_ | _O(max(n, m))_ | Easy | Binary
 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | [Python](./Week02/diameter-of-binary-tree.py) | _O(n)_ | _O(n)_ | Easy | Binary Tree
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [Python](./Week02/middle-of-the-linked-list.py) | _O(n)_ | _O(1)_ | Easy | Linked List
