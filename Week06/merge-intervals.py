@@ -29,3 +29,27 @@ class Solution(object):
             else:
                 merged[-1][1] = max(merged[-1][1], interval[1])
         return merged
+    
+class Solution(object):
+    def merge(self, intervals):
+        """
+        :type intervals: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        intervals.sort()
+
+        res = []
+        cur = None
+        for start, end in intervals:
+            if cur == None:
+                cur = [start, end]
+            elif cur[1] < start:
+                res.append(cur)
+                cur = [start, end]
+            else:
+                cur[0] = min(cur[0], start)
+                cur[1] = max(cur[1], end)
+        if cur:
+            res.append(cur)
+            
+        return res

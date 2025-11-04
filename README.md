@@ -85,7 +85,7 @@ Premium questions are not included
 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | [Python](./Week03/counting-bits.py) | _O(n)_ | _O(n)_ | Easy | Binary
 100 | [Same Tree](https://leetcode.com/problems/same-tree) | [Python](./Week03/same-tree.py) | _O(n)_ | _O(n)_ | Easy | Binary Tree
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [Python](./Week03/number-of-1-bits.py) | _O(32)_ | _O(1)_ | Easy | Binary
-14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | [Python](./Week03/longest-common-prefix.py) | _O(min(str))_ | _O(min(str))_ | Easy | String
+14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | [Python](./Week03/longest-common-prefix.py) | O(n * m) | O(m) | Easy | String
 136 | [Single Number](https://leetcode.com/problems/single-number) | [Python](./Week03/single-number.py) | _O(n)_ | _O(1)_ | Easy | Binary
 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [Python](./Week03/palindrome-linked-list.py) | _O(n)_ | _O(1)_ | Easy | Linked List
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | [Python](./Week03/move-zeroes.py) | _O(n)_ | _O(1)_ | Easy | Array
@@ -107,10 +107,10 @@ Premium questions are not included
 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)                                               | [Python](./Week04/subtree-of-another-tree.py)                        | _O(n * m)_ | _O(n)_ | Easy | Binary Tree
 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)                                           | [Python](./Week04/squares-of-a-sorted-array.py)                      | _O(n)_ | _O(n)_ | Easy | Array
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)                                                             | [Python](./Week04/maximum-subarray.py)                               | _O(n)_ | _O(1)_ | Medium | Dynamic Programming
-57 | [Insert Interval](https://leetcode.com/problems/insert-interval)                                                               | [Python](./Week04/insert-interval.py)                                | _O(n)_ | _O(1)_ | Medium | Array
+57 | [Insert Interval](https://leetcode.com/problems/insert-interval)                                                               | [Python](./Week04/insert-interval.py)                                | _O(n)_ | _O(n)_ | Medium | Array
 542 | [01 Matrix](https://leetcode.com/problems/01-matrix)                                                                           | [Python](./Week04/01-matrix.py)                                      | _O(n * m)_ | _O(n * m)_ | Medium | Graph
 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)                                         | [Python](./Week04/k-closest-points-to-origin.py)                     | _O(n log k)_ | _O(k)_ | Medium | Heap
-3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Python](./Week04/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium | String
+3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Python](./Week04/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(n)_ | Medium | String
 15 | [3Sum](https://leetcode.com/problems/3sum)                                                                                     | [Python](./Week04/3sum.py)                                           | _O(n ^ 2)_ | _O(n)_ | Medium | Array
 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)                           | [Python](./Week04/binary-tree-level-order-traversal.py)              | _O(n)_ | _O(n)_ | Medium | Binary Tree
 

@@ -23,15 +23,19 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         res = []
-        self.dfs(nums, res, [])
-        return res
 
-    def dfs(self, nums, res, path):
-        if len(nums) == len(path):
-            res.append(path)
-            return
-        for i in range(len(nums)):
-            if nums[i] not in path:
+        def dfs(path, visited):
+            if len(nums) == len(path):
+                res.append(list(path))
+                return
+            for i in range(len(nums)):
+                if nums[i] in visited:
+                    continue
                 path.append(nums[i])
-                self.dfs(nums, res, list(path))
+                visited.add(nums[i])
+                dfs(path, visited)
                 path.pop()
+                visited.remove(nums[i])
+
+        dfs([], set())
+        return res
