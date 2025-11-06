@@ -149,7 +149,7 @@ Premium questions are not included
 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [Python](./Week06/merge-intervals.py) | _O(n log n)_ | _O(n)_ | Medium | Array
 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | [Python](./Week06/lowest-common-ancestor-of-a-binary-tree.py) | _O(n)_ | _O(n)_ | Medium | Binary Tree
 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store) | [Python](./Week06/time-based-key-value-store.py) | _O(log n)_ | _O(n)_ | Medium | Binary Search
-721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge) | [Python](./Week06/accounts-merge.py) | _O(n * e * n log k)_ | _O(n * e)_ | Medium | Graph
+721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge) | [Python](./Week06/accounts-merge.py) | _O(e log e)_ | _O(n + e)_ | Medium | Graph
 
 <br/>
 <div align="right">
