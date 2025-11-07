@@ -181,11 +181,11 @@ Premium questions are not included
 |-----|-------|------------|---------|--------|------------|--------------|
 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [Python](./Week08/construct-binary-tree-from-preorder-and-inorder-traversal.py) | _O(n)_ | _O(n)_ | Medium | Binary Tree
 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Python](./Week08/container-with-most-water.py) | _O(n)_ | _O(1)_ | Medium | Array
-17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [Python](./Week08/letter-combinations-of-a-phone-number.py) | _O(4 ^ n)_ | _O(n)_ | Medium | Recursion
+17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [Python](./Week08/letter-combinations-of-a-phone-number.py) | _O(n * 4 ^ n)_ | _O(4 ^ n)_ | Medium | Recursion
 79 | [Word Search](https://leetcode.com/problems/word-search) | [Python](./Week08/word-search.py) | _O(n * m * 4 ^ len(s))_ | _O(len(s))_ | Medium | Graph
-438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) | [Python](./Week08/find-all-anagrams-in-a-string.py) | _O(n)_ | _O(26)_ | Medium | String
+438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) | [Python](./Week08/find-all-anagrams-in-a-string.py) | _O(n + m)_ | _O(26)_ | Medium | String
 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) | [Python](./Week08/minimum-height-trees.py) | _O(n)_ | _O(n)_ | Medium | Graph
-621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler) | [Python](./Week08/task-scheduler.py) | _O(n * idle)_ | _O(26)_ | Medium | Heap
+621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler) | [Python](./Week08/task-scheduler.py) | _O(n + idle)_ | _O(26)_ | Medium | Heap
 
 <br/>
 <div align="right">
