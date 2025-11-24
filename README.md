@@ -220,7 +220,7 @@ Premium questions are not included
 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Python](./Week10/remove-nth-node-from-end-of-list.py) | _O(n)_ | _O(1)_ | Medium | Linked List
 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | [Python](./Week10/find-the-duplicate-number.py) | _O(n)_ | _O(1)_ | Medium | Binary
 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | [Python](./Week10/top-k-frequent-words.py) | _O(n log k)_ | _O(n)_ | Medium | Heap
-300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [Python](./Week10/longest-increasing-subsequence.py) | _O(n ^ 2)_ | _O(n)_ | Medium | Dynamic Programming
+300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [Python](./Week10/longest-increasing-subsequence.py) | _O(n log n)_ | _O(n)_ | Medium | Dynamic Programming
 
 <br/>
 <div align="right">
