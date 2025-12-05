@@ -7,28 +7,23 @@
 class Solution(object):
     def widthOfBinaryTree(self, root):
         """
-        :type root: TreeNode
+        :type root: Optional[TreeNode]
         :rtype: int
         """
+        if not root:
+            return 0
         res = 0
-        q = deque()  # [node, num, level]
-        prevLevel, firstNum = 0, 1
+        queue = deque()
+        queue.append((root, 0))
 
-        if root == None:
-            return res
-
-        q.append([root, 1, 0])
-
-        while q:
-            node, num, level = q.popleft()
-
-            if level > prevLevel:
-                prevLevel = level
-                firstNum = num
-            res = max(res, num - firstNum + 1)
-
-            if node.left:
-                q.append([node.left, 2 * num, level + 1])
-            if node.right:
-                q.append([node.right, 2 * num + 1, level + 1])
+        while queue:
+            _, first_index = queue[0]
+            
+            for i in range(len(queue)):
+                cur, index = queue.popleft()
+                if cur.left:
+                    queue.append((cur.left, index*2))
+                if cur.right:
+                    queue.append((cur.right, index*2+1))
+            res = max(res, index - first_index + 1)
         return res
